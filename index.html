@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statixx Labs</title>
+<meta name="description" content="Demo versions of the Statixx Labs business tools, with sample data.">
+<style>
+:root{--bg:#fafafa;--card:#fff;--fg:#18181b;--muted:#71717a;--line:#e4e4e7;--chip:#f4f4f5;--accent:#18181b}
+@media (prefers-color-scheme:dark){:root{--bg:#09090b;--card:#18181b;--fg:#fafafa;--muted:#a1a1aa;--line:#27272a;--chip:#27272a;--accent:#fafafa}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:880px;margin:0 auto;padding:56px 16px 64px}
+h1{font-size:28px;line-height:1.2;margin:0 0 8px;letter-spacing:-.01em}
+.lede{color:var(--muted);margin:0 0 8px;max-width:620px}
+.note{display:inline-block;margin:8px 0 32px;padding:4px 10px;border-radius:999px;background:var(--chip);color:var(--muted);font-size:13px}
+.grid{display:grid;gap:12px;grid-template-columns:1fr}
+@media (min-width:700px){.grid{grid-template-columns:1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;display:flex;flex-direction:column}
+.card h2{font-size:17px;margin:0 0 4px}
+.card p{margin:0 0 14px;color:var(--muted);font-size:14px;flex:1}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{display:inline-flex;align-items:center;min-height:36px;padding:0 12px;border-radius:8px;border:1px solid var(--line);color:var(--fg);text-decoration:none;font-size:14px;font-weight:500}
+.links a.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.links a:hover{border-color:var(--muted)}
+.links a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+footer{margin-top:40px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Statixx Labs</h1>
+  <p class="lede">Business tools for Statixx, Aptixx, and Trazo. Each one is its own app on Cloudflare; these are click-through demos built from their sample data.</p>
+  <span class="note">Demo &middot; sample data, nothing you change is saved</span>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Pitch</h2>
+      <p>Proposals and quotes: reusable sections and price tables, a private client link, view tracking, and accept or decline.</p>
+      <div class="links">
+        <a class="primary" href="pitch/">Open Pitch</a>
+        <a href="pitch/p/seedViewedQuietProposalToken0001/">Client view</a>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Ledger</h2>
+      <p>Invoices, retainers, and payments across all three businesses, with a shareable invoice page for clients.</p>
+      <div class="links">
+        <a class="primary" href="ledger/">Open Ledger</a>
+        <a href="ledger/i/seedtoken00000000000000000000001/">Client invoice</a>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Tempo</h2>
+      <p>Time tracking and project profitability: timers and timesheets, budget burn, effective hourly rate, and billable-time export.</p>
+      <div class="links">
+        <a class="primary" href="tempo/">Open Tempo</a>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Portal</h2>
+      <p>A private portal for each client: project status, milestones, updates, shared files, approvals, and requests in one place.</p>
+      <div class="links">
+        <a class="primary" href="portal/">Team view</a>
+        <a href="portal-client/">Client view</a>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Pulse</h2>
+      <p>Uptime monitoring for client sites and APIs, with outage confirmation before alerts and a public status page per client.</p>
+      <div class="links">
+        <a class="primary" href="pulse/">Open Pulse</a>
+        <a href="pulse/s/northwind-dental/">Status page</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>Snapshots of work in progress; the live tools run privately behind sign-in.</footer>
+</main>
+</body>
+</html>

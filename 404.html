@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not in the demo</title>
+<script>
+// Filter and paging combinations past the demo's snapshot fall back to the unfiltered page.
+(function(){
+  var p = location.pathname, i = p.indexOf('/_q/');
+  if (i > -1) location.replace(p.slice(0, i + 1));
+})();
+</script>
+<style>
+:root{--bg:#fafafa;--fg:#18181b;--muted:#71717a;--line:#e4e4e7}
+@media (prefers-color-scheme:dark){:root{--bg:#09090b;--fg:#fafafa;--muted:#a1a1aa;--line:#27272a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:520px;margin:0 auto;padding:96px 16px}
+h1{font-size:22px;margin:0 0 8px}
+p{color:var(--muted);margin:0 0 20px}
+a{display:inline-flex;align-items:center;min-height:36px;padding:0 12px;border-radius:8px;border:1px solid var(--line);color:var(--fg);text-decoration:none;font-weight:500}
+</style>
+</head>
+<body>
+<main>
+  <h1>This page isn&rsquo;t in the demo</h1>
+  <p>The demo is a snapshot of each tool with sample data, so actions like creating, editing, and exporting aren&rsquo;t included.</p>
+  <a href="/statixx-labs-demo/">All tools</a>
+</main>
+</body>
+</html>

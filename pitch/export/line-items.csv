@@ -1,0 +1,9 @@
+﻿Proposal,Title,Section,Description,Quantity,Unit price,Billing,Optional,Included,Line total
+STX-2026-001,Website redesign,Investment,Design and build,1,4500.00,One-time,No,Yes,4500.00
+STX-2026-001,Website redesign,Investment,Photography,1,600.00,One-time,Yes,No,600.00
+STX-2026-001,Website redesign,Investment,Hosting and care,1,49.00,Monthly,No,Yes,49.00
+APT-2026-002,Booking widget,Investment,Booking widget,1,1800.00,One-time,No,Yes,1800.00
+STX-2026-002,Online ordering setup,Investment,Ordering setup,1,2200.00,One-time,No,Yes,2200.00
+APT-2026-001,Lead tracking app,Investment,Discovery,8,125.00,One-time,No,Yes,1000.00
+APT-2026-001,Lead tracking app,Investment,Build,1,3200.00,One-time,No,Yes,3200.00
+STX-2026-003,SEO retainer,Investment,SEO setup,1,900.00,One-time,No,Yes,900.00

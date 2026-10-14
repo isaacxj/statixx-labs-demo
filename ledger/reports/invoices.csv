@@ -1,0 +1,4 @@
+﻿Number,Status,Business,Client,Issue date,Due date,Currency,Subtotal,Tax,Total,Paid,Balance
+STX-9001,viewed,Statixx,Maria Alvarez,2026-09-04,2026-10-04,USD,1200.00,0.00,1200.00,0.00,1200.00
+APT-9001,partially_paid,Aptixx,Devon Park,2026-09-24,2026-10-12,CAD,1000.00,130.00,1130.00,500.00,630.00
+STX-9002,viewed,Statixx,Priya Shah,2026-10-14,2026-10-17,USD,450.00,0.00,450.00,0.00,450.00
